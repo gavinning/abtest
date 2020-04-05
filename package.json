@@ -1,0 +1,25 @@
+{
+  "name": "@4a/abtest",
+  "version": "0.0.0",
+  "description": "abtest,AB实验模型",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/abtest.git"
+  },
+  "keywords": [
+    "abtest"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/abtest/issues"
+  },
+  "homepage": "https://github.com/gavinning/abtest#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
