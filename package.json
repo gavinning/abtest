@@ -1,8 +1,8 @@
 {
   "name": "@4a/abtest",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "abtest,AB实验模型",
-  "main": "index.js",
+  "main": "lib/abtest.js",
   "scripts": {
     "test": "mocha test/**/*.spec.js"
   },
@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/gavinning/abtest#readme",
   "devDependencies": {
+    "ioredis": "^4.16.1",
     "mocha": "^7.1.1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
   }
 }
