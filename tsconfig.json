@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "es6",
+        "outDir": "dist",
+        "strict": true,
+        "allowJs": true,
+        "declaration": true
+    },
+    "include": ["src/**/*", "src/app.d.ts"]
+}

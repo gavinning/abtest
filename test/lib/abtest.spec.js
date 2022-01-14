@@ -1,5 +1,5 @@
 const redis = require('../mock/redis')
-const Abtest = require('../../lib/abtest')(redis)
+const Abtest = require('../../dist/index').default.register(redis)
 const assert = require('assert')
 
 describe('class Abtest test', () => {
