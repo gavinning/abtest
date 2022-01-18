@@ -106,7 +106,7 @@ export class ABTest {
         this.redis = redis
         return this
     }
- 
+
     static async grouped(testId: string) {
         const key = this.getKey(testId)
         return {
@@ -116,8 +116,8 @@ export class ABTest {
         }
     }
 
-    static grouping(testId: string, id: string) {
-        return new ABTest({ testId, id }).grouping()
+    static grouping(testId: string, id: string, timeout?: number) {
+        return new ABTest({ testId, id, timeout }).grouping()
     }
 }
 

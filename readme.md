@@ -23,6 +23,7 @@ return await ABTest.grouping(testId, id) // Number
 
 // 设置redis过期时间，默认7d
 // 实验停止后，redis关联key 7天后过期
+// 实验期间每次命中实验都会刷新有效期
 return await ABTest.grouping(testId, id, 7 * 60 * 60)
 ```
 
